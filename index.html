@@ -17,33 +17,37 @@
     <!-- icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" href="#">
+    <!-- js -->
+
     <title>Document</title>
 </head>
 
 <body>
 
     <head>
-        <div class="header bgrn bgsc bgpc pb51  " style="background-image: url('assets/Hearder_web_Nhật.png');">
+        <div class="header bgrn bgsc bgpc pb51 pr " style="background-image: url('assets/Hearder_web_Nhật.png');">
             <div class="navbar">
                 <div class="nav-1">
-                    <div class="container h60 pa10 df">
-                        <div class="col-md-7 fwb cf df aic fs15">
-                            TRƯỜNG ĐẠI HỌC HÀ NỘI
+                    <div class="container h60 pa10 df jcsb aic">
+                        <div class="col-md-7 fwb cf df aic fs15 cpi ">
+                            <div class="crdh fs08-xs">TRƯỜNG ĐẠI HỌC HÀ NỘI</div>
                         </div>
-                        <div class="col-md-5 df">
-                            <div class="w50 df cf jcsc aic">
-                                <input class="bb1 bcf" type="text" placeholder="tìm kiếm"
+                        <div class="col-md-5 df ">
+                            <div class="w50 df cf jcsc aic dn-xs">
+                                <input class="bb1 bcf dn-xs" type="text" placeholder="tìm kiếm"
                                     style="background: transparent;border-style: dashed;">
-                                <div class=""><i class="fas fa-search"></i></div>
+                                <div class=""><i class="fas fa-search cpi crdh"></i></div>
                             </div>
-                            <div class="w50 h1 df jcsa cf aic plr25">
-                                <div><i class="far fa-user fs15"></i></div>
-                                <div class="df aic pa10 bgs1 fwb"
+                            <div class="w50 h1 df jcsa cf aic plr25 dn-xs">
+                                <div><i class="far fa-user fs15 cpi crdh"></i></div>
+                                <div class="df aic pa10 bgs1 fwb bgcr4h bra10"
                                     style="background-image: url('./assets/Boder_Thông_báo.png');">
                                     <a href="">Đăng Nhập</a>
                                 </div>
-                                <div><i class="fas fa-cog fs15"></i></div>
+                                <div><i class="fas fa-cog fs15 cpi crdh"></i></div>
                             </div>
+                            <!-- menu-mobile -->
+                            <div class="icon-menu fs2 dn db-xs"><i class="fas fa-bars"></i></div>
                         </div>
                     </div>
                 </div>
@@ -53,7 +57,7 @@
                         <div class="col-md-2" style="background-color: rgb(150, 13, 13);">
                             <div class="bgrn bgs1 fwb h60 df jcsc aic cf"
                                 style="background-image: url('assets/khung-home.png');">
-                                <a href="">TRANG CHỦ</a>
+                                <a href="" class="c0h dn-xs">TRANG CHỦ</a>
                             </div>
                         </div>
                         <div class="col-md-2 h1 df jcsc">
@@ -62,13 +66,13 @@
                         <div class="col-md-8 df" style="background-color: rgb(150, 13, 13)">
                             <div class="w1 h1 bgs1 bgrn bgpc"
                                 style="background-image: url('assets/khung-menu-remove-removebg-preview.png');">
-                                <div class="df jcsa aic h1 fwb cf">
-                                    <a href="#">THÔNG BÁO</a>
-                                    <a href="#">ĐÀO TẠO</a>
-                                    <a href="#">TIN TỨC-SỰ KIỆN</a>
-                                    <a href="#">HỢP TÁC</a>
-                                    <a href="#">NGHIÊN CỨU KHOA HỌC</a>
-                                    <a href="#">HOẠT ĐỘNG KHÁC</a>
+                                <div class="df jcsa aic h1 fwb cf dn-xs">
+                                    <a href="#" class="c0h">THÔNG BÁO</a>
+                                    <a href="#" class="c0h">ĐÀO TẠO</a>
+                                    <a href="#" class="c0h">TIN TỨC-SỰ KIỆN</a>
+                                    <a href="#" class="c0h">HỢP TÁC</a>
+                                    <a href="#" class="c0h">NGHIÊN CỨU KHOA HỌC</a>
+                                    <a href="#" class="c0h">HOẠT ĐỘNG KHÁC</a>
                                 </div>
                             </div>
                         </div>
@@ -78,19 +82,40 @@
                     <div class="col-md-6 fs13 fwb df jcsc ls03 ptb15" style="color: rgb(150, 13, 13);">KHOA TIẾNG NHẬT
                     </div>
                 </div>
+                <!-- menu-mobile -->
+                <div class="menu-list pa wh1 lh2 fwb dn" style="color: #7e0707;">
+                    <div class="df jcsb pa15" style="border-bottom: 1px solid;">
+                        <div class="">Trang Chủ</div>
+                        <div class="df aic">
+                            <div><i class="far fa-user fs13 plr5"></i></div>
+                            <div class="">Đăng Nhập</div>
+                            <div><i class="fas fa-cog fs13 cpi plr10"></i></div>
+                        </div>
+                    </div>
+                    <div class="w1" style="text-align: right;">
+                        <ul class="pa25 ttu">
+                            <li>Thông báo</li>
+                            <li>Đào tạo</li>
+                            <li>Tin tức sự kiện</li>
+                            <li>hợp tác</li>
+                            <li>nghiên cứu khoa học</li>
+                            <li>hoạt động khác</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </head>
     <!-- main -->
     <div class="main">
         <!-- slide thông báo-->
-        <div class="slide mtb50 container pr">
+        <div class=" mtb50 container pr">
             <div class="w1 pa10 df jcsb pa t50">
-                <div class="bra50">
-                    <i class="fas fa-arrow-alt-circle-left fs2" style="color: rgb(150, 13, 13);"></i>
+                <div class="prev bra50 z1 cpi">
+                    <i class="fas fa-arrow-alt-circle-left fs2 " style="color: rgb(150, 13, 13);"></i>
                 </div>
-                <div class="bra50">
-                    <i class="fas fa-arrow-alt-circle-right fs2" style="color: rgb(150, 13, 13);"></i>
+                <div class="next bra50 z1 cpi ">
+                    <i class="fas fa-arrow-alt-circle-right fs2 cpi" style="color: rgb(150, 13, 13);"></i>
                 </div>
             </div>
             <!-- back-ground -->
@@ -100,14 +125,14 @@
                         <div class="" style="background-color: rgb(150, 13, 13);">
                             <div class="bgs1 pa15 bgrn tac fwb cf"
                                 style="background-image: url(assets/khung-home.png); width: 200px ;">
-                                <div class="ls2 ">THÔNG BÁO</div>
+                                <div class="ls2 c0h cpi">THÔNG BÁO</div>
                             </div>
                         </div>
                     </div>
                     <!-- thẻ slide -->
-                    <div class="h1 df">
-                        <div class="slide-card ptb25" style="color:rgb(150, 13, 13);">
-                            <div class="col-md-3 ">
+                    <div class=" h1 oh col-xs-12">
+                        <div class="slide-container ptb25 df w1 col-xs-12" style="color:rgb(150, 13, 13);">
+                            <div class="slide col-md-3 col-xs-12  fsh0">
                                 <div class="w1 df jcsc">
                                     <div class="w70">
                                         <div class="w1 df jcsc pr">
@@ -130,10 +155,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 ">
+                            <div class="col-md-3 slide col-xs-12  fsh0">
                                 <div class="w1 df jcsc">
                                     <div class="w70">
-                                        <div class="w1  df jcsc pr">
+                                        <div class="w1 df jcsc pr">
                                             <img src="assets/tt-2-removebg-preview.png" alt="" class="wh30 pa">
                                         </div>
                                         <div class="mt15">
@@ -152,7 +177,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 ">
+                            <div class="col-md-3 slide col-xs-12  fsh0">
                                 <div class="w1 df jcsc">
                                     <div class="w70">
                                         <div class="w1 df jcsc pr">
@@ -173,7 +198,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 ">
+                            <div class="col-md-3 slide col-xs-12  fsh0">
                                 <div class="w1 df jcsc">
                                     <div class="w70">
                                         <div class="w1  df jcsc pr bgcf ">
@@ -197,28 +222,74 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- thêm slide-->
+                            <div class="col-md-3 slide col-xs-12  fsh0">
+                                <div class="w1 df jcsc">
+                                    <div class="w70">
+                                        <div class="w1 df jcsc pr">
+                                            <img src="assets/tt3-removebg-preview.png" alt="" class="wh30 pa">
+                                        </div>
+                                        <div class="mt15">
+                                            <div class="bgrn bgs1 df fdc jcsb"
+                                                style="background-image: url('assets/khung-thong-bao-removebg-preview.png'); height: 350px;">
+                                                <div class="pl5 pr3">
+                                                    <img src="assets/tb-anh-3.jpg" class="h100 w1">
+                                                </div>
+                                                <div class="w1 tac pa25">
+                                                    Thông báo tuyển sinh Đại học hệ Vừa làm vừa học năm 2011
+                                                </div>
+                                                <div class="fsi w1 tac pa25">Ngày 23/03/2021</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-md-3 col-xs-12  fsh0">
+                                <div class="w1 df jcsc">
+                                    <div class="w70">
+                                        <div class="w1 df jcsc pr">
+                                            <img src="assets/tt-1-removebg-preview.png" alt="" class="wh30 pa">
+                                        </div>
+                                        <div class="mt15">
+                                            <div class="bgrn bgs1 df fdc jcsb"
+                                                style="background-image: url('assets/khung-thong-bao-removebg-preview.png'); height: 350px;">
+                                                <div class="pl5 pr3">
+                                                    <img src="assets/tb-anh-1.jpg" class="h100 w1">
+                                                </div>
+                                                <div class="w1 tac pa25">
+                                                    Thông báo thời gian bán và thu hồ sơ thi năng lực tiếng Nhật tháng 7
+                                                    năm
+                                                    20221
+                                                </div>
+                                                <div class="fsi w1 tac pa25 ">Ngày 23/03/2021</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- chương trình đào tạo -->
-        <div class="bgsc bgrn mtb50"
+
+        <div class="bgsc bgrn mtb50 pr"
             style="background-image: url('assets/bg-dao-tao.jpg'); background-position: bottom; height: 400px;">
-            <div class="container h1">
-                <div class="col-md-6 h1">
+            <div class="container pr h1 df">
+                <div class="col-md-6 col-xs-12 h1">
                     <div class="df fdc aic fwb ls2 wh1 lh15 jcfe pa15">
-                        <div class="fs2" style="color: #da1b1b;"> HƠN</div>
-                        <div class="fs3" style="color: #da1b1b;">45 NĂM</div>
-                        <div class="cf">HOẠT ĐỘNG VÀ PHÁT TRIỂN TRONG ĐÀO TẠO TIẾNG NHẬT</div>
+                        <div class="fs2 fs1-xs" style="color: #da1b1b;"> HƠN</div>
+                        <div class="fs3 fs15-xs" style="color: #da1b1b;">45 NĂM</div>
+                        <div class="cf tac">HOẠT ĐỘNG VÀ PHÁT TRIỂN TRONG ĐÀO TẠO TIẾNG NHẬT</div>
                     </div>
                 </div>
 
-                <div class="col-md-6 h1 ">
+                <div class="col-md-6 h1 df dn-xs dn-sm">
                     <div class="wh1 df jcfe pa" style="top:10%;">
                         <div class="w40 h1 bgcf brt25">
                             <div class="bgrn bgs1 pa15 h1"
-                                style="background-image: url('assets/Khung\ chương\ trình\ đào\ tạo.png');">
+                                style="background-image: url('assets/khung-ct-dao-tao.png');">
                                 <div class="df fdc aic h1">
                                     <div class="">
                                         <div class="ptb10 lh15 tac fwb fs15" style="color: #be2323;">CHƯƠNG TRÌNH ĐÀO
@@ -226,19 +297,58 @@
                                         <div class="mb25"><img src="assets/5-removebg-preview.png"></div>
                                     </div>
                                     <div class="df fdc aic jcsa h1 cf fwb">
-                                        <div class="pa10 bra15 w1 tac" style="background-color: rgb(150, 13, 13);">HỆ
+                                        <div class="pa10 bra15 w1 tac cpi c0h"
+                                            style="background-color: rgb(150, 13, 13);">HỆ
                                             CHÍNH QUY
                                         </div>
-                                        <div class="pa10 bra15 w1 tac" style="background-color: rgb(150, 13, 13);">HỆ
+                                        <div class="pa10 bra15 w1 tac cpi c0h"
+                                            style="background-color: rgb(150, 13, 13);">HỆ
                                             VỪA HỌC VỪA
                                             LÀM</div>
-                                        <div class="pa10 bra15 w1 tac" style="background-color: rgb(150, 13, 13);">HỆ
+                                        <div class="pa10 bra15 w1 tac cpi c0h"
+                                            style="background-color: rgb(150, 13, 13);">HỆ
                                             SAU ĐẠI HỌC
                                         </div>
                                     </div>
-                                    <div class="bgs1 bgrn pa10 "
-                                        style="background-image: url('assets/login.png');color: #da1b1b;">xem thêm</div>
+                                    <div class="bgs1 bgrn pa15 fwb cpi"
+                                        style="background-image: url('assets/login.png');color: #da1b1b;">
+                                        <a href="" class="c0h">Xem thêm</a>
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="db-xs dn">
+            <div class="container df jcsc">
+                <div class="col-xs-12 plr25 bgcf">
+                    <div class="bgrn bgs1 pa15 "
+                        style="background-image: url('assets/Khung\ chương\ trình\ đào\ tạo.png');">
+                        <div class="df fdc aic">
+                            <div class="">
+                                <div class="ptb10 lh15 tac fwb fs15" style="color: #be2323;">CHƯƠNG TRÌNH ĐÀO
+                                    TẠO</div>
+                                <div class="mb25"><img src="assets/5-removebg-preview.png"></div>
+                            </div>
+                            <div class="cf fwb">
+                                <div class="pa10 bra15 w1 tac cpi c0h mtb15"
+                                    style="background-color: rgb(150, 13, 13);">HỆ
+                                    CHÍNH QUY
+                                </div>
+                                <div class="pa10 bra15 w1 tac cpi c0h mtb15"
+                                    style="background-color: rgb(150, 13, 13);">HỆ
+                                    VỪA HỌC VỪA
+                                    LÀM</div>
+                                <div class="pa10 bra15 w1 tac cpi c0h mtb15"
+                                    style="background-color: rgb(150, 13, 13);">HỆ
+                                    SAU ĐẠI HỌC
+                                </div>
+                            </div>
+                            <div class="bgs1 bgrn pa15 fwb cpi"
+                                style="background-image: url('assets/login.png');color: #da1b1b;">
+                                <a href="" class="c0h">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -250,40 +360,45 @@
             style="background-image: linear-gradient(rgba(138, 32,44, 0.8),rgba(138, 32,44, 0.8)),url(assets/12.png);background-size: 300px;">
             <div class="container">
                 <div class="wh1 df jcsc pa15 fd fdc aic">
-                    <div class="h60 w20 bgcf ">
-                        <div class="bgs1 bgrn wh1 b1s " style="background-image: url('assets/khung-home.png');">
-                            <div class="wh1 df aic jcsc fwb fs15" style="color: #da1b1b;">TIN TỨC-SỰ KIỆN</div>
+                    <div class="h60 bgcf ">
+                        <div class="bgs1 bgrn wh1 b1s plr25" style="background-image: url('assets/khung-home.png');">
+                            <div class="wh1 df aic jcsc fwb  cpi" style="color: #da1b1b;">
+                                <a href="" class="c0h fs15 fs1-xs">TIN TỨC-SỰ KIỆN</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="time-line pa5 w1 pr mt25">
-                        <div class="cf pa15 " style="border-left:5px solid #FFFF;">
-                            <div class=" h1 jcsb w1">
+                    <div class=" pa5 w1 pr mt25">
+                        <div class="time-line cf pa15 " style="border-left:5px solid #FFFF;">
+                            <div class="item h1 jcsb w1">
                                 <div class="bra50 wh15 b1s bgcf l0 pa mtb15"></div>
-                                <div class="pa15">Tuyên truyền cuộc thi "Khoa giáo dục Chính trị qua lăng kính sinh viên
+                                <div class="pa15 cpi c0h">Tuyên truyền cuộc thi "Khoa giáo dục Chính trị qua lăng kính
+                                    sinh viên
                                     HANU" </div>
                                 <div class="w1 fsi df jcfe">
                                     <small>Ngày 22/03/2021</small>
                                 </div>
                             </div>
-                            <div class=" h1 jcsb w1">
+                            <div class="item h1 jcsb w1">
                                 <div class="bra50 wh15 b1s bgcf l0 pa mtb15"></div>
-                                <div class="pa15">Thư ngỏ gửi cựu sinh viên nhân dịp lễ kỷ niệm 45 năm giảng dạy và 25
+                                <div class="pa15 cpi c0h">Thư ngỏ gửi cựu sinh viên nhân dịp lễ kỷ niệm 45 năm giảng dạy
+                                    và 25
                                     năm thành lập khoa tiếng nhật </div>
                                 <div class="w1 fsi df jcfe">
                                     <small>Ngày 22/03/2021</small>
                                 </div>
                             </div>
-                            <div class=" h1 jcsb w1">
+                            <div class="item h1 jcsb w1">
                                 <div class="bra50 wh15 b1s bgcf l0 pa mtb15"></div>
-                                <div class="pa15">Khảo sát tính trạng việc làm của sinh viên tốt nghiệp năm 2017 </div>
+                                <div class="pa15 cpi c0h">Khảo sát tính trạng việc làm của sinh viên tốt nghiệp năm 2017
+                                </div>
                                 <div class="w1 fsi df jcfe">
                                     <small>Ngày 22/03/2021</small>
                                 </div>
                             </div>
-                            <div class=" h1 jcsb w1">
+                            <div class="item h1 jcsb w1">
                                 <div class="bra50 wh15 b1s bgcf l0 pa mtb15"></div>
-                                <div class="pa15">Buổi giao lưu với trường Đại Học Nishykiushu </div>
+                                <div class="pa15 cpi c0h">Buổi giao lưu với trường Đại Học Nishykiushu </div>
                                 <div class="w1 fsi df jcfe">
                                     <small>Ngày 22/03/2021</small>
                                 </div>
@@ -302,41 +417,55 @@
                         hệ
                         hợp tác ngoại giao giữa Khoa với tổ chức , đoàn thể và hơn 26 Trường đại học tại Nhật Bản</div>
                 </div>
-                <div class="df">
-                    <div class="col-md-3 pa10">
-                        <div class="bgsc bgpc bgrn cf h250" style="background-image: url('assets/Nhật\ Bản-1.jpg');">
-                            <div class="wh1 fdc jcfe df aic pa10">
-                                <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">KYOTO</div>
-                                <small class="pa5">Xem thêm</small>
+                <div class="df fww">
+                    <div class="col-md-3 col-xs-12 pa10">
+                        <div class="oh">
+                            <div class="bgsc bgpc bgrn cf h250 tfs11h tt2"
+                                style="background-image: url('assets/Nhật\ Bản-1.jpg');">
+                                <div class="wh1 fdc jcfe df aic pa10">
+                                    <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">KYOTO</div>
+                                    <small class="pa5 cpi c0h">Xem thêm</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-xs-12 pa10">
+                        <div class="oh ">
+                            <div class="bgsc bgpc bgrn cf h250 tfs11h tt2"
+                                style="background-image: url('assets/Nhật\ Bản\ -\ 2.jpg');">
+                                <div class="wh1 fdc jcfe df aic pa10">
+                                    <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">OSAKA</div>
+                                    <small class="pa5 cpi c0h">Xem thêm</small>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 pa10">
-                        <div class="bgsc bgpc bgrn cf h250"
-                            style="background-image: url('assets/Nhật\ Bản\ -\ 2.jpg');">
-                            <div class="wh1 fdc jcfe df aic pa10">
-                                <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">OSAKA</div>
-                                <small class="pa5">Xem thêm</small>
+
+                    <div class="col-md-3 col-xs-12 pa10">
+                        <div class="oh">
+                            <div class="bgsc bgpc bgrn cf h250 tfs11h tt2"
+                                style="background-image: url('assets/Nhật\ Bản\ -\ 3.jpg');">
+                                <div class="wh1 fdc jcfe df aic pa10">
+                                    <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">TOKYO</div>
+                                    <small class="pa5 cpi c0h">Xem thêm</small>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                    <div class="col-md-3 pa10">
-                        <div class="bgsc bgpc bgrn cf h250"
-                            style="background-image: url('assets/Nhật\ Bản\ -\ 3.jpg');">
-                            <div class="wh1 fdc jcfe df aic pa10">
-                                <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">TOKYO</div>
-                                <small class="pa5">Xem thêm</small>
+                    <div class="col-md-3 col-xs-12 pa10">
+                        <div class="oh">
+                            <div class="bgsc bgpc bgrn cf h250 tfs11h tt2"
+                                style="background-image: url('assets/Nhật\ Bản\ -\ 4.jpg');">
+                                <div class="wh1 fdc jcfe df aic pa10">
+                                    <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">SAPPORP
+                                    </div>
+                                    <small class="pa5 cpi c0h">Xem thêm</small>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 pa10">
-                        <div class="bgsc bgpc bgrn cf h250"
-                            style="background-image: url('assets/Nhật\ Bản\ -\ 4.jpg');">
-                            <div class="wh1 fdc jcfe df aic pa10">
-                                <div class="plr25 fwb fs15 ptb10" style="border-bottom: 2px solid #FFF;">SAPPORP</div>
-                                <small class="pa5">Xem thêm</small>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -346,60 +475,82 @@
         <div class="pr">
             <div class="container  df  pa25"
                 style="background-image:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('assets/12.png'); background-size: 300px;">
-                <div class="wh1 df">
-                    <div class="col-md-4  pa15">
+                <div class="wh1 df fww ">
+                    <div class="col-md-4 col-xs-12 pa15">
                         <div class="df fdc jcsc h1" style="color: rgb(150, 13, 13)">
-                            <div class="df aic jcsc">
-                                <div class="col-md-4">
+                            <div class="df aic jcsb">
+                                <div class="col-md-4 f1">
                                     <img src="assets/Web Nhật_Tuần lễ VH NB_Ảnh 1.jpg" class="w1 h100">
                                 </div>
-                                <div class="col-md-4 ">
-                                    <div class="fs15 fwb df jcsc">VĂN HÓA</div>
+                                <div class="col-md-4 f1">
+                                    <div class="fs15 fwb df jcsc fs1-xs">VĂN HÓA</div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 f1">
                                     <img src="assets/Web Nhật_Tuần lễ VH NB_Ảnh 2.jpg" class="w1 h100">
                                 </div>
                             </div>
-                            <div class="df aic jcsc">
-                                <div class="col-md-4">
-                                    <div class="fs15 fwb df jcsc">TUẦN LỄ</div>
+                            <div class="df aic jcsb">
+                                <div class="col-md-4 f1">
+                                    <div class="fs15 fwb df jcsc fs1-xs">TUẦN LỄ</div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 f1">
                                     <img src="assets/Web Nhật_Tuần lễ VH NB_Ảnh 3.jpg" class="w1 h100">
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="fs15 fwb df jcsc "> NHẬT BẢN</div>
+                                <div class="col-md-4 f1">
+                                    <div class="fs15 fwb df jcsc fs1-xs"> NHẬT BẢN</div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-md-8" style="color: rgb(150, 13, 13)">
+                    <div class="col-md-8 col-xs-12" style="color: rgb(150, 13, 13)">
                         <div class="bgs1 bgrn h1" style="background-image: url('assets/khung-2-remove.png');">
                             <div class="pt25 w1 tac">
-                                <div class="fwb fs15">NGHIÊN CỨU KHOA HỌC</div>
+                                <div class="fwb fs15 fs1-xs">NGHIÊN CỨU KHOA HỌC</div>
                             </div>
 
-                            <div class="df pa25 lh2 ">
-                                <div class="pa5">
-                                    <p>Nghiên cứu khoa học giảng viên</p>
-                                    <div class="">
-                                        <div>● Hội nghị khoa học giảng viên 2015-2016</div>
-                                        <div>● Thông báo về Hội thảo Quốc tế năm 2013</div>
+                            <div class="df fww pa15 lh2 fs09-xs">
+                                <div class="pa5 col-md-4 df aic fdc">
+                                    <p class="fwb">Nghiên cứu khoa học giảng viên</p>
+                                    <div class="pa5">
+                                        <div class="df">
+                                            <div class="wh20"><img src="assets/icon_Ghim_Nghiên cứu khoa học.png"></div>
+                                            <div>Hội nghị khoa học giảng viên 2015-2016</div>
+                                        </div>
+                                        <div class="df">
+                                            <div class="wh20"><img src="assets/icon_Ghim_Nghiên cứu khoa học.png"></div>
+                                            <div>お知らせ年経済学術集会開催のお知らせ</div>
+                                        </div>
+                                        <div class="df">
+                                            <div class="wh20"><img src="assets/icon_Ghim_Nghiên cứu khoa học.png"></div>
+                                            <div>Thông báo về Hội thảo Quốc tế năm 2013</div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="pa5">
-                                    <p>Nghiên cứu khoa học giảng viên</p>
+                                <div class="pa5 col-md-4 df aic fdc">
+                                    <p class="fwb">Nghiên cứu khoa học sinh viên</p>
                                     <div class="pa5" style="border-left: 3px solid;">
-                                        <div>● Hội nghị khoa học giảng viên 2015-2016</div>
-                                        <div>● Thông báo về Hội thảo Quốc tế năm 2013</div>
+                                        <div class="df ">
+                                            <div class="wh20"><img src="assets/icon_Ghim_Nghiên cứu khoa học.png"></div>
+                                            <div>Hội nghị khoa học giảng viên 2015-2016</div>
+                                        </div>
+                                        <div class="df">
+                                            <div class="wh20"><img src="assets/icon_Ghim_Nghiên cứu khoa học.png"></div>
+                                            <div>Thông báo về Hội thảo Quốc tế năm 2013</div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="pa5">
-                                    <p>Nghiên cứu khoa học giảng viên</p>
+                                <div class="pa5 col-md-4 df aic fdc">
+                                    <p class="fwb">Diễn đàn trao đổi kinh nghiệm</p>
                                     <div class="pa5" style="border-left: 3px solid;">
-                                        <div>● Hội nghị khoa học giảng viên 2015-2016</div>
-                                        <div>● Thông báo về Hội thảo Quốc tế năm 2013</div>
+                                        <div class="df">
+                                            <div class="wh20"><img src="assets/icon_Ghim_Nghiên cứu khoa học.png"></div>
+                                            <div>Hội nghị khoa học giảng viên 2015-2016</div>
+                                        </div>
+                                        <div class="df">
+                                            <div class="wh20"><img src="assets/icon_Ghim_Nghiên cứu khoa học.png"></div>
+                                            <div>Thông báo về Hội thảo Quốc tế năm 2013</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -409,25 +560,25 @@
             </div>
         </div>
         <!-- giới thiệu -->
-        <div class="container  df">
-            <div class="col-md-4 w1 bgsc bgpc bgrn"
+        <div class="container  df fww">
+            <div class="col-md-4 col-xs-12 w1 bgsc bgpc bgrn"
                 style="background-image:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('assets/hoa_đào_2-removebg-preview.png');">
             </div>
-            <div class="col-md-8 pa25 lh15">
+            <div class="col-md-8 col-xs-12 pa25 lh15">
                 <div class="wh1 bgso"
                     style="color: #7e0707; background-image:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('assets/cánh_hoa_anh_đào-removebg-preview.png'); background-size: 150px;">
-                    <div class="df w1">
-                        <div class="w50 pa15">
+                    <div class="df w1 fww">
+                        <div class="w50 w1-xs pa15">
                             <div class="fs09">KHOA NHẬT</div>
-                            <div class="pa15 fs15 fwb">GIỚI THIỆU KHOA</div>
+                            <div class="pa15 fs15 fwb fs1-xs">GIỚI THIỆU KHOA</div>
                             <div class="">
                                 <div>● Lời Chào Trưởng khoa </div>
                                 <div>● Lịch sủ hình thành và phát triển</div>
                             </div>
                         </div>
-                        <div class="w50 pa15">
+                        <div class="w50 w1-xs pa15">
                             <div class="fs09">KHOA NHẬT</div>
-                            <div class="pa15 fs15 fwb">HOẠT ĐỘNG KHÁC</div>
+                            <div class="pa15 fs15 fwb fs1-xs">HOẠT ĐỘNG KHÁC</div>
                             <div class="">
                                 <div>● Dịch vụ biên - phiên dịch</div>
                                 <div>● Danh mục khóa học</div>
@@ -435,10 +586,10 @@
                         </div>
                     </div>
 
-                    <div class="df w1">
-                        <div class="w50 pa15">
-                            <div class="fs09">KHOA NHẬT</div>
-                            <div class="pa15 fs15 fwb">GÓC HỎI ĐÁP</div>
+                    <div class="df w1 fww">
+                        <div class="w50 w1-xs pa15">
+                            <div class="fs09 ">KHOA NHẬT</div>
+                            <div class="pa15 fs15 fwb fs1-xs">GÓC HỎI ĐÁP</div>
                             <div class="">
                                 <div>● Đất nước Nhật Bản </div>
                                 <div>● Kinh nghiệm học tiếng Nhật</div>
@@ -446,9 +597,9 @@
                                 <div>● Thư viện ảnh</div>
                             </div>
                         </div>
-                        <div class="w50 pa15">
+                        <div class="w50 w1-xs pa15">
                             <div class="fs09">KHOA NHẬT</div>
-                            <div class="pa15 fs15 fwb">CỔNG THÔNG TIN SINH VIÊN</div>
+                            <div class="pa15 fs15 fwb fs1-xs">CỔNG THÔNG TIN SINH VIÊN</div>
                             <div class="">
                                 <div>● Hoạt động sinh viên</div>
                                 <div>● Học bổng ,Tuyển dụng</div>
@@ -469,7 +620,7 @@
             <div class="container pa25 lh2 cf">
                 <div class="w1">
                     <div class="col-md-8">
-                        <div class="df ">
+                        <div class="df">
                             <div class="col-md-4 bgso bgpc bgrn"
                                 style="background-image: url('assets/logoNhat-bgcf.jpg');"></div>
                             <div class="col-md-8">
@@ -509,9 +660,12 @@
                     </div>
                 </div>
             </div>
-            <div class="w1 pa b0" style="background-image: url('assets/6.png'); height: 40px; background-size: 200px;"></div>
+            <div class="w1 pa b0" style="background-image: url('assets/6.png'); height: 40px; background-size: 200px;">
+            </div>
         </div>
     </div>
+
 </body>
+<script src="main.js"></script>
 
 </html>

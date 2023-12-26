@@ -8,3 +8,34 @@
     outline: none;
     letter-spacing: 2px;
   }
+  .menu-list {
+    top: 13%;
+    opacity: 0.8;
+    background-color: aliceblue;
+    animation: slideToLeft 1s ease-in-out 
+  }
+  .toggle {
+    display: block;
+  }
+  @keyframes slideToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+  .active {
+    animation: timeline 1s ease-in-out
+  }
+  @keyframes timeline {
+    0% {
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+  .slide-container{
+    transition: transform 0.3s ease-in-out;
+}
