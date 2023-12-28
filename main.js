@@ -88,3 +88,16 @@ function handleScroll() {
   // Cập nhật trạng thái cuộn trước đó
   lastScrollTop = scrollTop;
 }
+
+// modal
+var seeMores = document.querySelectorAll('.see-more')
+seeMores.forEach((seeMore)=> {
+  seeMore.addEventListener('click',()=>{
+  modal.classList.toggle('open-modal')
+})
+})
+var modal = document.querySelector('.modal')
+var closeModal = document.querySelector('.close')
+closeModal.addEventListener('click',()=>{
+  modal.classList.remove('open-modal')
+})
