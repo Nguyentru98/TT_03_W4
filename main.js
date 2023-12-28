@@ -7,42 +7,42 @@ toggle.addEventListener("click", () => {
 
 // slide
 
-const slideContainer = document.querySelector('.slide-container');
-const slides = document.querySelectorAll('.slide');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+const slideContainer = document.querySelector(".slide-container");
+const slides = document.querySelectorAll(".slide");
+const prevButton = document.querySelector(".prev");
+const nextButton = document.querySelector(".next");
 let slideWidth = slides[0].offsetWidth;
 const visibleSlides = 3;
 let currentIndex = 0;
 
 function slideTo(index) {
-    slideWidth = slides[0].offsetWidth;
-    const translateX = -index * slideWidth;
-    slideContainer.style.transform = `translateX(${translateX}px)`;
+  slideWidth = slides[0].offsetWidth;
+  const translateX = -index * slideWidth;
+  slideContainer.style.transform = `translateX(${translateX}px)`;
 }
 
 function nextSlide() {
-    currentIndex = (currentIndex + 1) % slides.length;;
-    slideTo(currentIndex);
+  currentIndex = (currentIndex + 1) % slides.length;
+  slideTo(currentIndex);
 }
 
 function prevSlide() {
-    currentIndex = (currentIndex + slides.length - 1) %  (slides.length-3);
-    slideTo(currentIndex);
+  currentIndex = (currentIndex + slides.length - 1) % (slides.length - 3);
+  slideTo(currentIndex);
 }
 
-nextButton.addEventListener('click', nextSlide);
-prevButton.addEventListener('click', prevSlide);
+nextButton.addEventListener("click", nextSlide);
+prevButton.addEventListener("click", prevSlide);
 
 function updateSlideSize() {
-    slideWidth = slides[0].offsetWidth;
-    slideContainer.style.width = `${slideWidth * visibleSlides}px`; // Cập nhật lại độ dài của container
-    slideTo(currentIndex);
+  slideWidth = slides[0].offsetWidth;
+  slideContainer.style.width = `${slideWidth * visibleSlides}px`; // Cập nhật lại độ dài của container
+  slideTo(currentIndex);
 }
 
-window.addEventListener('resize',function() {
-    slideTo(currentIndex);
-} );
+window.addEventListener("resize", function () {
+  slideTo(currentIndex);
+});
 
 slideTo(currentIndex);
 
@@ -90,14 +90,15 @@ function handleScroll() {
 }
 
 // modal
-var seeMores = document.querySelectorAll('.see-more')
-seeMores.forEach((seeMore)=> {
-  seeMore.addEventListener('click',()=>{
-  modal.classList.toggle('open-modal')
-})
-})
-var modal = document.querySelector('.modal')
-var closeModal = document.querySelector('.close')
-closeModal.addEventListener('click',()=>{
-  modal.classList.remove('open-modal')
-})
+var seeMores = document.querySelectorAll(".see-more");
+var modal = document.querySelector(".modal");
+var closeModal = document.querySelector(".close");
+
+seeMores.forEach((seeMore) => {
+  seeMore.addEventListener("click", () => {
+    modal.classList.toggle("open-modal");
+  });
+});
+closeModal.addEventListener("click", () => {
+  modal.classList.remove("open-modal");
+});
