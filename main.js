@@ -27,7 +27,7 @@ function nextSlide() {
 }
 
 function prevSlide() {
-  currentIndex = (currentIndex + slides.length - 1) % (slides.length - 3);
+  currentIndex = (currentIndex + slides.length - 1) % (slides.length);
   slideTo(currentIndex);
 }
 
